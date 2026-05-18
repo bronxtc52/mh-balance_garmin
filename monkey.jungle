@@ -1,0 +1,7 @@
+project.manifest = manifest.xml
+
+# Source files
+base.sourcePath = source
+
+# Resource directories
+base.resourcePath = resources/drawables;resources/layouts;resources/strings
