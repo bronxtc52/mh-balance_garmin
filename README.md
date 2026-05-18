@@ -2,7 +2,7 @@
 
 A minimalist Garmin Connect IQ watch face focused on what really matters: energy and stress.[page:1]
 
-![mh-balance preview](IMG_2530.HEIC)
+![mh-balance preview](garmin.jpg)
 
 ## Overview
 
