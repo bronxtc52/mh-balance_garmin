@@ -52,6 +52,12 @@ connectiq monkeydo bin/mh-balance-fr965.prg fr965
 - `manifest.xml` — `iq:application id` (`a6504e02-...`), список `iq:product`, permissions.
 - `LICENSE` (GPL-3.0) и атрибуции upstream шрифтов/иконок.
 
+## Секреты
+
+**Где искать:** Key Vault `kv-bronxtc-dev` (RG `bronxtc_group`, RBAC, northeurope). **У этого репо нет своего namespace** — Connect IQ watch face не использует env-переменных; единственный «секрет» — `developer_key.der` (живёт в `../garmin/keys/` вне репо).
+
+**Правило:** если в будущем понадобится какой-то токен (например для CI-загрузки в Connect IQ Store) — **сначала проверяю vault**, потом спрашиваю пользователя. Не придумывать.
+
 ## Изоляция проекта
 
 - **Запрещено** читать, просматривать или изменять файлы за пределами корневой папки текущего проекта
